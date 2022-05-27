@@ -1,13 +1,5 @@
 from datetime import datetime
-from netifaces import interfaces, ifaddresses, AF_INET
-import platform
-import socket
-import ipaddress
-import click
-import os
-import distro
-import sys
-import psutil
+import platform, socket, os
 from uuid import getnode as get_mac # библиотека для получения MAC-адреса
 
 
